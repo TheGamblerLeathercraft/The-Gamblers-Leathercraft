@@ -133,7 +133,7 @@ button.add {
 
 <header>
 <div class="header-container">
-    <div>Leather Craft Store</div>
+    <div>Moody Leather Craft Store</div>
 
     <div class="cart-btn" onclick="toggleCart()">
         🛒 Cart (<span id="cartCount">0</span>)
