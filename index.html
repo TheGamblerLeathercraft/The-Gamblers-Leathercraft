@@ -13,13 +13,14 @@ body {
     color: #fff;
 }
 
-/* ✅ HEADER (FIXED BANNER SIZE) */
+/* ✅ FIXED BANNER (NO CROPPING) */
 header {
-    height: 200px; /* smaller + cleaner */
+    height: 200px;
     background-image: url("TheGambler BANNER.png");
-    background-size: cover;
-    background-position: center top; /* FIX: prevents bad zoom/cropping */
+    background-size: contain;     /* shows full image */
+    background-position: center;  /* centers it */
     background-repeat: no-repeat;
+    background-color: #111;       /* fills empty space */
     display: flex;
     align-items: center;
     position: relative;
